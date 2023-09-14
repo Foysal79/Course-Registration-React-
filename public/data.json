@@ -1,0 +1,74 @@
+[
+    {
+      "id": 1,
+      "image": "https://i.ibb.co/3NgT0Sr/Rectangle-2-2.png",
+      "course_name": "Introduction to C Programming",
+      "detiels": "C is a general-purpose high level language that was originally developed by Dennis Ritchie for the Unix operating system.",
+      "price": 15000,
+      "credit": 1
+    },
+    {
+      "id": 2,
+      "image": "https://i.ibb.co/VQmwdkj/Rectangle-2-3.png",
+      "course_name": "Introduction to Algorithms",
+      "detiels": "A comprehensive update of the leading algorithms text, with new material on matchings in bipartite graphs, online algorithms.",
+      "price": 25000,
+      "credit": 2
+    },
+    {
+      "id": 3,
+      "image": "https://i.ibb.co/QDNqWpk/Rectangle-2-4.png",
+      "course_name": "Introduction to C++ for DSA",
+      "detiels": "Key concepts of C++ DSA include Arrays, Linked Lists, Stacks, Queues, Trees, and Graphs. Common Algorithms in C++ DSA include Sorting.",
+      "price": 10000,
+      "credit": 10
+    },
+    {
+      "id": 4,
+      "image": "https://i.ibb.co/pWPnxpt/Rectangle-3.png",
+      "course_name": "Basic Data Structures",
+      "detiels": "Linear Vs Non-linear Data Structures The data elements are linked to several items. A linear data structure can be an array.",
+      "price": 35000,
+      "credit": 5
+    },
+    {
+      "id": 5,
+      "image": "https://i.ibb.co/P42WjnQ/Rectangle-2.png",
+      "course_name": "Introduction to OOP Python",
+      "detiels": "In Python, object-oriented Programming (OOPs) is a programming paradigm that uses objects and classes in programming.",
+      "price": 19000,
+      "credit": 5
+    },
+    {
+      "id": 6,
+      "image": "https://i.ibb.co/0yhwg3B/Rectangle-2-5.png",
+      "course_name": "Software Engineering",
+      "detiels": "SE is the branch of CS that deals with the design, development, testing, and maintenance of software applications.",
+      "price": 23000,
+      "credit": 2
+    },
+    {
+      "id": 7,
+      "image": "https://i.ibb.co/KW7m3jf/Rectangle-3-1.png",
+      "course_name": "AWS, Cloud Computing",
+      "detiels": "AWS (Amazon Web Services) is a comprehensive, evolving cloud computing platform provided by Amazon that....",
+      "price": 35000,
+      "credit": 5
+    },
+    {
+      "id": 8,
+      "image": "https://i.ibb.co/6Dj2LZV/Rectangle-2-1.png",
+      "course_name": "Database (MySQL)",
+      "detiels": "The database structure is organized into physical files optimized for speed. The logical data model.",
+      "price": 19000,
+      "credit": 5
+    },
+    {
+      "id": 9,
+      "image": "https://i.ibb.co/ByXh6ZH/Rectangle-2-6.png",
+      "course_name": "Problem-Solving Part",
+      "detiels": "A few months ago, I produced a video describing this the three stages of the problem-solving cycle: Understand, Strategize, and Implement. ",
+      "price": 23000,
+      "credit": 2
+    }
+  ]
