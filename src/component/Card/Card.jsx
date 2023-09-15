@@ -18,7 +18,7 @@ const Card = () => {
 
     const [totalCredit , setTotalCredit] = useState(0);
 
-    const [remainingCredit, setRemainingCredit] = useState(0);
+    const [remainingCredit, setRemainingCredit] = useState(20);
 
     const [totalPrice , setTotalPrice] = useState(0);
 
@@ -58,7 +58,7 @@ const Card = () => {
       if(20 < total)
       {
         toast.error('Your Credit limits only 20 credits', {
-          position: toast.POSITION.TOP_RIGHT,
+          position: toast.POSITION.TOP_LEFT,
         });
       }
       else{
@@ -82,9 +82,9 @@ const Card = () => {
     return (
         <div className="w-11/12 mx-auto ">
             <h1 className="text-center text-4xl font-bold mt-4 md:mt-8">Course Registration</h1>
-         <div className="home_container md:flex mt-9 gap-4">
+         <div className="home_container md:flex mt-9 gap-4 space-y-4">
 
-            <div className="card-container grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 w-9/12 gap-4">
+            <div className="card-container grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 md:w-9/12 gap-4">
                {
                 data.map((datas) => (
                     <div key={datas.id} className="card  bg-base-100 shadow-xl space-y-4">
