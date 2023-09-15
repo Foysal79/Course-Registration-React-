@@ -22,6 +22,6 @@ initially set the value 0.  Credits for each course are added each time set set
 * const [remainingCredit, setRemainingCredit] = useState(20)
 initially set the value to 20 because 20 credits is limits .We will always subtract the total selected credits from the remainingCredit, deposit the subtraction into the setsetRemainingCredit and display the remainingCredit . remainingCredit will never drop below 0 .
 
-*const [totalPrice , setTotalPrice] = useState(0)
+* const [totalPrice , setTotalPrice] = useState(0)
 SetTotalPrice will store the price of each of the selected courses. And After passing the data TotalPrice will be displayed in the card section 
   
