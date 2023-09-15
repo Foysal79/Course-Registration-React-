@@ -19,9 +19,9 @@ const Card = () => {
     return (
         <div className="w-11/12 mx-auto ">
             <h1 className="text-center text-4xl font-bold mt-4 md:mt-8">Course Registration</h1>
-         <div className="home_container flex mt-9 gap-4">
+         <div className="home_container md:flex mt-9 gap-4">
 
-            <div className="card-container grid grid-cols-3 w-9/12 gap-4">
+            <div className="card-container grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 w-9/12 gap-4">
                {
                 data.map((datas) => (
                     <div key={datas.id} className="card  bg-base-100 shadow-xl space-y-4">
@@ -38,7 +38,7 @@ const Card = () => {
                         </div>
                       </div>
                       <div className="card-actions justify-center">
-                        <button className="btn btn-primary px-16">Select</button>
+                        <button className="btn btn-primary md:px-12 lg:px-24">Select</button>
                       </div>
                     </div>
                   </div>
@@ -46,7 +46,7 @@ const Card = () => {
                }
             </div>
 
-            <div className="cart-contsiner card w-3/12 bg-base-100 shadow-xl">
+            <div className="card h-max bg-base-100 shadow-lg">
              <Cart></Cart>
             </div>
              
